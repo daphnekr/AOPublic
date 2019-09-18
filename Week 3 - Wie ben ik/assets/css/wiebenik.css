@@ -11,18 +11,12 @@ h2 {
     text-align: center
     }
     
-p1 {
+h3 {
 
-    background: rgba(181, 137, 231, 0.3); 
     padding: 5px;
     font-size: 150%;
 }
 
-p2 {
-
-    background: rgba(181, 137, 231, 0.3); 
-    padding: 5px;
-}
 
 
 .btn-group button {
@@ -49,8 +43,30 @@ body {
 
 .center{
     position:absolute;
-    height: 600px;
+    min-height: 200px;
     width: 500px;
     left:35%;
     top:20%;
+    background: rgba(181, 137, 231, 0.3); 
+    padding: 5px;
+    border: 1px solid black;
+}
+.center1{
+    position:absolute;
+    min-height: 200px;
+    width: 500px;
+    left:35%;
+    top:72%;
+}
+.center2{
+    position:absolute;
+    min-height: 200px;
+    width: 500px;
+    left:60%;
+    top:72%;
+}
+
+img{
+    float:right;
+    width: 200px;
 }
