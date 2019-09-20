@@ -1,7 +1,8 @@
 // begin hier je JavaScript commandos
    // Daphne Kramer
    // Applicatie ontwikkelaar
-      
+
+   
    const vraag = alert("Je moet 3 vragen beantwoorden");
 
    var voornaam = prompt("Vul je voornaam in.");
