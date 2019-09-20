@@ -1,8 +1,8 @@
 // Daphne Kramer
 // Applicatie en Mediaontwikkelaar
 
-var ja = "ja";
-var nee = "nee";
+var ja = "ja" || "Ja";
+var nee = "nee" || "Nee";
 
 geel = prompt("Is de kaas geel?");
 if(geel == ja){//Is de kaas geel?   
@@ -26,27 +26,25 @@ if(geel == ja){//Is de kaas geel?
         }
     }
 }
-
-
-
-if(geel == nee){//Is de kaas geel?
+else{//Is de kaas geel?
     schimmels = prompt("Heeft de kaas blauwe schimmels?");
     if(schimmels == ja){
-        if(schimmels == nee){//Heeft de kaas blauwe schimmels?
-            korst1 = prompt("Heeft de kaas een korst?");
-            if(korst1 == ja){
-                document.write("Camembert");
-            }
-            else{
-                document.write("Mozzarella");
-            }
-        }
+
         korst = prompt("Heeft de kaas een korst?");
         if(korst == ja){
             document.write("Blue de Rochbaron");
         }
         else{
             document.write("Foume d'Ambert");
+        }
+    }
+    else{
+        korst1 = prompt("Heeft de kaas een korst?");
+        if(korst1 == ja){
+            document.write("Camembert");
+        }
+        else{
+            document.write("Mozzarella");
         }
     }
 }
