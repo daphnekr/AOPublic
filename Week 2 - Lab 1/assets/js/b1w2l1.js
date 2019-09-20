@@ -1,7 +1,8 @@
 // begin hier je JavaScript commandos
    // Daphne Kramer
    // Applicatie ontwikkelaar
-      
+
+   alert("hoi");
    var voornaam = prompt("Vul je voornaam in.");
    document.write('Mijn naam is ' + voornaam + "<br/>");
 
