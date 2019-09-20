@@ -1,6 +1,8 @@
 // Daphne Kramer
 // Applicatie en Mediaontwikkelaar
 
+function functionKaas(){
+
 var ja = "ja" || "Ja";
 var nee = "nee" || "Nee";
 
@@ -47,4 +49,6 @@ else{//Is de kaas geel?
             document.write("Mozzarella");
         }
     }
+}
+document.getElementById("kaas").innerHTML = text;
 }
